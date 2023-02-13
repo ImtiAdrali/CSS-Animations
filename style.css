@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    background: none;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: .7rem;
+    font-family: "Geneva";
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: inset 0 0 0 #54b3d6;
+    transition: 0.8s;
+}
+
+/* .btn1 {
+    box-shadow: inset 25px 0 0 #54b3d6;
+}
+.btn2 {
+    box-shadow: inset 0 10px 0 #54b3d6;
+}
+.btn3 {
+    box-shadow: inset 0 -10px 0 #54b3d6;
+}
+.btn4 {
+    box-shadow: inset 0 0 10px #54b3d6;
+} */
+
+
+
+
+.btn1:hover {
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.btn2:hover {
+    box-shadow: inset 0 100px 0 #54b3d6;
+    color: white;
+}
+
+.btn3:hover {
+    box-shadow: inset 0 -100px 0 #54b3d6;
+    color: white;
+}
+
+.btn4:hover {
+    box-shadow: inset 0 0 100px #54b3d6;
+    color: white;
+}
